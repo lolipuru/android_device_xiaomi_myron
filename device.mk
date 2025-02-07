@@ -35,6 +35,10 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/properties/odm_CN.prop:$(TARGET_COPY_OUT_ODM)/etc/odm_CN.prop \
     $(LOCAL_PATH)/configs/properties/odm_GL.prop:$(TARGET_COPY_OUT_ODM)/etc/odm_GL.prop
 
+# Sensors
+PRODUCT_PACKAGES += \
+    sensors.qsh_wrapper
+
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)

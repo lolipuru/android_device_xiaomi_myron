@@ -33,6 +33,8 @@ lib_fixups: lib_fixups_user_type = {
 }
 
 blob_fixups: blob_fixups_user_type = {
+    'vendor/etc/sensors/hals.conf': blob_fixup()
+        .regex_replace(r'sensors\.qsh\.so', 'sensors.qsh_wrapper.so'),
     'odm/bin/hw/vendor.xiaomi.sensor.citsensorservice.aidl': blob_fixup()
         .replace_needed('libtinyxml2.so', 'libtinyxml2-v36.so')
         .replace_needed('android.hardware.graphics.common-V6-ndk.so',
