@@ -18,7 +18,8 @@ PRODUCT_PACKAGES += \
 
 # Euicc
 PRODUCT_PACKAGES += \
-    XiaomiEuicc
+    XiaomiEuicc \
+    XiaomiEsimSwitcher
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/permissions/privapp-permissions-euiccgoogle.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/privapp-permissions-euiccgoogle.xml
