@@ -38,6 +38,7 @@ PRODUCT_PACKAGES += \
     ApertureOverlayMyron \
     FrameworksResMyron \
     MyronEuiccOverlay \
+    NfcOverlayMyron \
     SettingsOverlayMyron \
     SettingsProviderOverlayMyron \
     SystemUIResMyron \
