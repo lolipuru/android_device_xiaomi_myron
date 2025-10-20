@@ -8,16 +8,13 @@ ro.vendor.touchfeature.type=247
 persist.vendor.fingerprint.type=udfps
 persist.vendor.fingerprint.sensor_location=600|1956|148
 
-# Marketname
-ro.product.marketname=Redmi K90 Pro Max
-
-# Bluetooth
-bluetooth.device.default_name=Redmi K90 Pro Max
-
 # Sensor
 persist.vendor.sensor.mischeck=true
 ro.vendor.sensor.maxbrightness=6750
 ro.vendor.proxcal.factor=2.84
 
-# USB
-vendor.usb.product_string=Redmi K90 Pro Max
+# Order
+ro.product.property_source_order=odm,vendor,product,system_ext,system
+
+# SKU
+import /odm/etc/odm_${ro.boot.hwc}.prop
