@@ -39,4 +39,6 @@ PRODUCT_PACKAGES += \
     FrameworksResMyron \
     MyronEuiccOverlay \
     SettingsOverlayMyron \
-    SystemUIResMyron
+    SettingsProviderOverlayMyron \
+    SystemUIResMyron \
+    WifiOverlayMyron
