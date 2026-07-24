@@ -21,6 +21,12 @@ odm/etc/acdbdata/Mi/model924_eai_int8_8850.eai
 odm/etc/acdbdata/Mi/model9414_eai_int8_8850.eai
 
 # ADSP modules
+odm/etc/audio/mis_gameop_configs.bin
+odm/etc/audio/mis_head_spatial.bin
+odm/etc/audio/mis_head.bin
+odm/etc/audio/mis_powerop_configs.bin
+odm/etc/audio/mis_spk_spatial.bin
+odm/etc/audio/mis_spk.bin
 odm/etc/audio/misound_karaoke_res.bin
 odm/etc/audio/misound_karaokemix_res.bin
 odm/etc/audio/misoundsa_spk_config.bin
@@ -794,6 +800,7 @@ odm/lib64/libHISCppAlgos.so
 odm/lib64/libIMTCppAlgos.so
 odm/lib64/libLMSceneSeg.so
 odm/lib64/libmage.so
+odm/lib64/libmetadataHelper.so
 odm/lib64/libmi_aialign_raw.so
 odm/lib64/libmi_authsecretd.so
 odm/lib64/libmi_computationalOptics_def.so
@@ -817,6 +824,7 @@ odm/lib64/libmialgo_snsc.so
 odm/lib64/libmialgo_srdehaze.so
 odm/lib64/libmialgo_utils.so
 odm/lib64/libMiEmojiEffect.so
+odm/lib64/libMiMotion.so
 odm/lib64/libmiocr.so
 odm/lib64/libmiphone_capture_bokeh.so
 odm/lib64/libmiphone_capture_depth.so
@@ -844,6 +852,11 @@ odm/lib64/libvega_common_ecd.so;FIX_SONAME
 odm/lib64/libvega_common.so
 odm/lib64/libwa_opticalzoom_fusion.so
 odm/lib64/libwa_widelens_undistort.so
+odm/lib64/outconvfiltcoeff.bin
+odm/lib64/outconvfiltcoeffcq2x2.bin
+odm/lib64/outconvfiltcoeffcq4x4.bin
+odm/lib64/outconvfiltcoeffqpd4x4.bin
+odm/lib64/rsmc_fw.bin
 
 # Camera Components
 odm/lib64/camera/components/com.mi.node.videonight.so
@@ -1275,6 +1288,8 @@ vendor/lib64/libcom.xiaomi.threadpool.so
 vendor/lib64/libcom.xiaomi.timer.so
 vendor/lib64/libDlhookDumpStates.so
 vendor/lib64/libdng_sdk.so:vendor/lib64/libdng_sdk-myron.so;FIX_SONAME
+vendor/lib64/libdscaalgo.so
+vendor/lib64/libecoengine.so
 vendor/lib64/libfastmessage.so
 vendor/lib64/libGenie.so
 vendor/lib64/libheichal.so
@@ -1291,6 +1306,7 @@ vendor/lib64/libjpegencoder.so:vendor/lib64/libjpegencoder_myron.so;FIX_SONAME
 vendor/lib64/liblocalFlickerDet.so
 vendor/lib64/libmctfengine_stub.so
 vendor/lib64/libmetatagwrapper.so
+vendor/lib64/libmfGhostDetection.so
 vendor/lib64/libmialgo_ai_vision.so
 vendor/lib64/libmialgo.so
 vendor/lib64/libmialgoengine_custom.so
@@ -1306,6 +1322,7 @@ vendor/lib64/libmicamera_hal_policy.so
 vendor/lib64/libmicamGlobalPool.so
 vendor/lib64/libminikin.xiaomi.so
 vendor/lib64/libMiPhotoFilter.so
+vendor/lib64/libmlremosaicengine.so
 vendor/lib64/libmmcamera_bestats.so
 vendor/lib64/libmmcamera_cac.so
 vendor/lib64/libmmcamera_lscv35.so
@@ -1314,6 +1331,7 @@ vendor/lib64/libmmcamera_mfnr.so
 vendor/lib64/libmmcamera_pdpc.so
 vendor/lib64/libmpbase.so
 vendor/lib64/libnova.so
+vendor/lib64/libofestriping.so
 vendor/lib64/libofflinedebugdata.so
 vendor/lib64/libois_channel_stub.so
 vendor/lib64/liboischannel.so
@@ -1328,6 +1346,7 @@ vendor/lib64/libPlatformValidatorShared.so
 vendor/lib64/libpostprocinfo.so
 vendor/lib64/libproj_qmot_tracker.so
 vendor/lib64/libproj_sot.so
+vendor/lib64/libqsegnet.so
 vendor/lib64/libqshcamera_sensinghubapi.so
 vendor/lib64/libqshcamera.so
 vendor/lib64/libRecordCNN.so
