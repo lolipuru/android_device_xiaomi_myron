@@ -926,7 +926,7 @@ odm/lib64/camera/plugins/com.xiaomi.plugin.yuv2Heic.so
 odm/lib64/camera/plugins/com.xiaomi.plugin.yuvresize.so
 
 # Camera Preload
-odm/lib64/camera/preloadplugins/com.xiaomi.plugin.asd.so:odm/lib64/camera/plugins/com.xiaomi.plugin.asd.so
+odm/lib64/camera/preloadplugins/com.xiaomi.plugin.asd.so
 odm/lib64/camera/preloadplugins/com.xiaomi.plugin.memcpy.so
 odm/lib64/camera/preloadplugins/com.xiaomi.plugin.offcamb2y.so
 odm/lib64/camera/preloadplugins/com.xiaomi.plugin.offcamformatconvertor.so
@@ -943,15 +943,15 @@ odm/lib64/camera/preloadplugins/com.xiaomi.plugin.offlineehdr.so
 odm/lib64/camera/preloadplugins/com.xiaomi.plugin.offlineformatconvertor.so
 odm/lib64/camera/preloadplugins/com.xiaomi.plugin.offlinehdrraw2y.so
 odm/lib64/camera/preloadplugins/com.xiaomi.plugin.offlineheic.so
-odm/lib64/camera/preloadplugins/com.xiaomi.plugin.offlinei2y.so:odm/lib64/camera/plugins/com.xiaomi.plugin.offlinei2y.so
-odm/lib64/camera/preloadplugins/com.xiaomi.plugin.offlinejpeg.so:odm/lib64/camera/plugins/com.xiaomi.plugin.offlinejpeg.so
-odm/lib64/camera/preloadplugins/com.xiaomi.plugin.offlinemfnr.so:odm/lib64/camera/plugins/com.xiaomi.plugin.offlinemfnr.so
-odm/lib64/camera/preloadplugins/com.xiaomi.plugin.offlinemlawb.so:odm/lib64/camera/plugins/com.xiaomi.plugin.offlinemlawb.so
-odm/lib64/camera/preloadplugins/com.xiaomi.plugin.offlinetintless.so:odm/lib64/camera/plugins/com.xiaomi.plugin.offlinetintless.so
-odm/lib64/camera/preloadplugins/com.xiaomi.plugin.offlinetintlesshdr.so:odm/lib64/camera/plugins/com.xiaomi.plugin.offlinetintlesshdr.so
+odm/lib64/camera/preloadplugins/com.xiaomi.plugin.offlinei2y.so
+odm/lib64/camera/preloadplugins/com.xiaomi.plugin.offlinejpeg.so
+odm/lib64/camera/preloadplugins/com.xiaomi.plugin.offlinemfnr.so
+odm/lib64/camera/preloadplugins/com.xiaomi.plugin.offlinemlawb.so
+odm/lib64/camera/preloadplugins/com.xiaomi.plugin.offlinetintless.so
+odm/lib64/camera/preloadplugins/com.xiaomi.plugin.offlinetintlesshdr.so
 odm/lib64/camera/preloadplugins/com.xiaomi.plugin.offlineyuveis.so
 odm/lib64/camera/preloadplugins/com.xiaomi.plugin.offlineyuvreprocess.so
-odm/lib64/camera/preloadplugins/com.xiaomi.plugin.offlineyuvsplit.so:odm/lib64/camera/plugins/com.xiaomi.plugin.offlineyuvsplit.so
+odm/lib64/camera/preloadplugins/com.xiaomi.plugin.offlineyuvsplit.so
 odm/lib64/camera/preloadplugins/com.xiaomi.plugin.offlineyuvwarp.so
 odm/lib64/camera/preloadplugins/com.xiaomi.plugin.previewldc.so
 
