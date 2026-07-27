@@ -1299,8 +1299,6 @@ vendor/lib64/libipebpsstriping170.so
 vendor/lib64/libipebpsstriping480.so
 vendor/lib64/libiqdbgmgr.so
 vendor/lib64/libisphwsetting.so
-vendor/lib64/libjpegdecoder.so:vendor/lib64/libjpegdecoder_myron.so;FIX_SONAME
-vendor/lib64/libjpegencoder.so:vendor/lib64/libjpegencoder_myron.so;FIX_SONAME
 vendor/lib64/liblocalFlickerDet.so
 vendor/lib64/libmctfengine_stub.so
 vendor/lib64/libmetatagwrapper.so
@@ -1370,7 +1368,6 @@ vendor/lib64/libSnpeHtpV81CalculatorStub.so;FIX_SONAME
 vendor/lib64/libSnpeHtpV81Stub.so
 vendor/lib64/libSNPESample.so
 vendor/lib64/libubifocus.so
-vendor/lib64/libultrahdr.so:vendor/lib64/libultrahdr_myron.so;FIX_SONAME
 vendor/lib64/libUSTANative.so
 vendor/lib64/vendor.qti.hardware.camera.aon-service-impl.so
 vendor/lib64/vendor.qti.hardware.camera.offlinecamera-service-impl.so;DISABLE_DEPS

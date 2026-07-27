@@ -78,30 +78,11 @@ blob_fixups: blob_fixups_user_type = {
             'android.hardware.camera.device-V2-ndk.so'
         ),
     (
-        'vendor/lib64/libultrahdr_myron.so', 
-    ): blob_fixup()
-        .replace_needed(
-            'libjpegencoder.so',
-            'libjpegencoder_myron.so'
-        )
-        .replace_needed(
-            'libjpegdecoder.so',
-            'libjpegdecoder_myron.so'
-        ),
-    (
         'odm/lib64/camera/plugins/com.xiaomi.plugin.losslessjpeg.so'
     ): blob_fixup()
         .replace_needed(
             'libdng_sdk.so',
             'libdng_sdk-myron.so'
-        ),
-    (
-        'odm/lib64/camera/plugins/com.xiaomi.plugin.jpegrAggr.so', 
-        'odm/lib64/camera/plugins/com.xiaomi.plugin.gainmap.so'
-    ): blob_fixup()
-        .replace_needed(
-            'libultrahdr.so',
-            'libultrahdr_myron.so'
         ),
     (
         "odm/lib64/camera/dynamicplugins/com.xiaomi.plugin.mialgoallinone.so",
