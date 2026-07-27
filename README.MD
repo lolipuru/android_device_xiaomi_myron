@@ -1,4 +1,4 @@
-#  Device Tree for Redmi K90 Pro Max / Poco F7 Ultra (myron)
+#  Device Tree for Redmi K90 Pro Max / Poco F8 Ultra (myron)
 
 ## Spec Sheet
 
