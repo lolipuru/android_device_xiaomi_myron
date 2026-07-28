@@ -6,7 +6,7 @@ ro.vendor.touchfeature.type=247
 
 # Fingerprint
 persist.vendor.fingerprint.type=udfps
-persist.vendor.fingerprint.sensor_location=526|1956|148
+persist.vendor.fingerprint.sensor_location=600|1956|148
 
 # Marketname
 ro.product.marketname=Redmi K90 Pro Max
