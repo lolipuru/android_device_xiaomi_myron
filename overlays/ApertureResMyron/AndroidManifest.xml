@@ -1,0 +1,8 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="org.lineageos.aperture.overlay.myron">
+    <application android:hasCode="false" />
+    <overlay android:isStatic="true"
+             android:priority="1"
+             android:targetPackage="org.lineageos.aperture"
+             android:targetName="MyronApertureOverlay" />
+</manifest>
