@@ -11,7 +11,7 @@ KERNEL_PATH := $(DEVICE_PATH)-kernel
 include device/xiaomi/sm8850-common/BoardConfigCommon.mk
 
 # Display
-TARGET_SCREEN_DENSITY := 520
+TARGET_SCREEN_DENSITY := 420
 
 # Dtb/o
 BOARD_PREBUILT_DTBOIMAGE := $(KERNEL_PATH)/dtbo.img
