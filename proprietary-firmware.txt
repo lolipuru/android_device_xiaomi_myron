@@ -1,5 +1,5 @@
 ## All proprietary files from this list, unless pinned and noted otherwise,
-## are from Redmi K90 Pro Max (OS3.0.306.0.WPMCNXM). 
+## are from Redmi K90 Pro Max (OS4.0.0.15.XPMCNXM). 
 
 abl.img;AB
 aop_config.img;AB
