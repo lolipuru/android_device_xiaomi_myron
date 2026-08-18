@@ -17,7 +17,7 @@ $(call inherit-product, device/xiaomi/myron/device.mk)
 ## Device identifier
 PRODUCT_DEVICE := myron
 PRODUCT_NAME := lineage_myron
-PRODUCT_BRAND := Xiaomi
+PRODUCT_BRAND := Redmi
 PRODUCT_MODEL := 25102RKBEC
 PRODUCT_MANUFACTURER := xiaomi
 
