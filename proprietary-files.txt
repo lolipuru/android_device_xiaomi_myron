@@ -1423,9 +1423,14 @@ odm/firmware/pq_00000000.bin
 odm/firmware/pq_global_00000000.bin
 
 # Display (virtual display service)
+odm/lib64/libfcsam.so
 odm/lib64/libframemaster.so
+odm/lib64/libframemasterintf.so
+odm/lib64/libmiam.so;FIX_SONAME
 odm/lib64/libnvticcontroller.so
+odm/lib64/libtouchreport_alg_fts.so;FIX_SONAME
 odm/lib64/vendor.novatek.hardware.visdisplaysrv-V1-ndk.so
+odm/lib64/vendor.xiaomi.hardware.framemaster-V1-ndk.so
 
 # Displayfeature (configs)
 odm/etc/df_default.xml
@@ -1496,6 +1501,13 @@ odm/etc/display/ltm_config_xiaomi_p11u_42_0d_0a_cmd_mode_dsc_dsi_panel.xml
 odm/etc/display/mdss_dsi_p11u_42_0d_0a_dsc_cmd_bl.json
 odm/etc/display/qdcm_calib_data_xiaomi_p11u_42_0d_0a_cmd_mode_dsc_dsi_panel.json
 
+# Dolby
+odm/etc/dolby/dax-default-spatializer.xml
+odm/etc/dolby/dax-default.xml
+odm/etc/surfaceflinger/dolby_vision.cfg
+odm/vendor/etc/dolby_vision.cfg
+odm/vendor/persist/display/dolby_vision.cfg
+
 # Euicc - from blazer-user-17-CP2A.260805.005-15828068-release-keys
 product/priv-app/EuiccGoogle/EuiccGoogle.apk|b90c9c9e58b443c07357d5b55b7b2789fa450ab4
 
@@ -1506,6 +1518,12 @@ odm/lib64/libgf_hal.so
 # RIL
 odm/etc/me_config.xml
 system_ext/framework/xiaomi-modem-common.jar
+
+# Kernel
+vendor/bin/init.kernel.post_boot-memory.sh
+
+# NFC
+odm/etc/libnfc-nxp_RF.conf:vendor/etc/libnfc-nxp_RF.conf
 
 # Sensors
 odm/etc/sensors/config/5cm_blue.png
@@ -1567,6 +1585,14 @@ odm/etc/sensors/config/sns_tilt_to_wake.json
 odm/etc/sensors/config/sns_transport_ppe.json
 odm/etc/sensors/config/sx937x_0.json
 odm/etc/sensors/config/sx937x_reg_0.json
+odm/etc/cit_param_config.json
+
+# Touchfeature
+odm/bin/toucheventcheck
+odm/lib64/libtouchreport_alg.so
+odm/lib64/libtouchreport_hal.so
+odm/lib64/libtouchreport_sensor.so
+odm/lib64/libtouchreport.so
 
 # Touchscreen
 odm/firmware/focaltech_ts_fw_myron.bin
