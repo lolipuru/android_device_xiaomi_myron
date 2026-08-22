@@ -1504,6 +1504,7 @@ odm/lib64/hw/fingerprint.goodix_us2.so:odm/lib64/hw/fingerprint.goodix_us2.defau
 odm/lib64/libgf_hal.so
 
 # RIL
+odm/etc/me_config.xml
 system_ext/framework/xiaomi-modem-common.jar
 
 # Sensors
