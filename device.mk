@@ -16,6 +16,10 @@ PRODUCT_PACKAGES += \
     android.hardware.graphics.allocator-V1-ndk.vendor \
     vendor.qti.hardware.camera.offlinecamera-V2-ndk.vendor
 
+# init
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/init/init.myron.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.myron.rc
+
 # Properties
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/properties/odm_CN.prop:$(TARGET_COPY_OUT_ODM)/etc/odm_CN.prop \
@@ -29,5 +33,6 @@ PRODUCT_SOONG_NAMESPACES += \
 PRODUCT_PACKAGES += \
     ApertureOverlayMyron \
     FrameworksResMyron \
+    MyronEuiccOverlay \
     SettingsOverlayMyron \
     SystemUIResMyron
