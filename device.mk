@@ -17,6 +17,9 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.camera.offlinecamera-V2-ndk.vendor
 
 # Euicc
+PRODUCT_PACKAGES += \
+    XiaomiEuicc
+
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/permissions/privapp-permissions-euiccgoogle.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/privapp-permissions-euiccgoogle.xml
 
