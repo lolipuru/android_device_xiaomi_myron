@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<haptic-feedback-constants>
+    <!-- LONG_PRESS: stock virtual_key_longpress, sys.haptic.long.press = 0,1 -->
+    <constant id="0">
+        <vibration-effect>
+            <predefined-effect name="click"/>
+        </vibration-effect>
+    </constant>
+
+    <!-- VIRTUAL_KEY: stock virtual_key_down, sys.haptic.down = 5,2 -->
+    <constant id="1">
+        <vibration-effect>
+            <predefined-effect name="heavy_click"/>
+        </vibration-effect>
+    </constant>
+
+    <!-- KEYBOARD_TAP: stock virtual_key_tap, sys.haptic.tap.normal = 3,2. -->
+    <constant id="3">
+        <vibration-effect>
+            <predefined-effect name="thud"/>
+        </vibration-effect>
+    </constant>
+
+    <!-- TEXT_HANDLE_MOVE: stock mesh_light, sys.haptic.mesh.light = 5,1. -->
+    <constant id="9">
+        <vibration-effect>
+            <predefined-effect name="heavy_click"/>
+        </vibration-effect>
+    </constant>
+</haptic-feedback-constants>
