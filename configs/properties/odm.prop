@@ -5,16 +5,12 @@ persist.sys.miui_resolution=1200,2608,480
 ro.vendor.touchfeature.type=247
 
 # Fingerprint
-persist.vendor.fingerprint.type=udfps
 persist.vendor.fingerprint.sensor_location=600|1956|120
 
 # Sensor
 persist.vendor.sensor.mischeck=true
 ro.vendor.sensor.maxbrightness=6750
 ro.vendor.proxcal.factor=2.84
-
-# Order
-ro.product.property_source_order=odm,vendor,product,system_ext,system
 
 # SKU
 import /odm/etc/odm_${ro.boot.hwc}.prop
