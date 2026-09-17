@@ -1,5 +1,5 @@
 ## All proprietary files from this list, unless pinned and noted otherwise,
-## are from Redmi K90 Pro Max (OS3.0.306.0.WPMCNXM). 
+## are from Redmi K90 Pro Max (OS3.0.309.0.WPMCNXM). 
 
 # ACDBs
 odm/etc/acdbdata/Mi/Ext_AiOff_fixed.eai
@@ -852,6 +852,7 @@ odm/lib64/libvega_common_ecd.so;FIX_SONAME
 odm/lib64/libvega_common.so
 odm/lib64/libwa_opticalzoom_fusion.so
 odm/lib64/libwa_widelens_undistort.so
+odm/lib64/libxmi_slow_motion_mein.so
 odm/lib64/outconvfiltcoeff.bin
 odm/lib64/outconvfiltcoeffcq2x2.bin
 odm/lib64/outconvfiltcoeffcq4x4.bin
