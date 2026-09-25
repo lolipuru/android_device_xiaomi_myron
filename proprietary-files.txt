@@ -1398,6 +1398,8 @@ vendor/lib64/vendor.xiaomi.sensor.camera-V1-ndk.so
 
 # Display
 odm/etc/spr_cfg_xiaomi_p11u_42_0d_0a_cmd_mode_dsc_dsi_panel.xml
+product/etc/displayconfig/common_multi_factor_thermal_brightness_control.xml:vendor/etc/displayconfig/common_multi_factor_thermal_brightness_control.xml
+product/etc/displayconfig/display_id_4630946964337362323.xml:vendor/etc/displayconfig/display_id_4630946964337362323.xml
 
 # Display (D2 calibration data)
 odm/firmware/asic_panel.bin
