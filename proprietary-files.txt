@@ -184,6 +184,10 @@ vendor/etc/audio/sku_canoe/mcs_defs_canoe_mtp.xml
 vendor/etc/audio/sku_canoe/mixer_paths_canoe_mtp.xml
 vendor/etc/audio/sku_canoe/resourcemanager_canoe_mtp.xml
 
+# AVF
+odm/firmware_oemvm/oemvm/boot/oemvm.elf
+odm/firmware_oemvm/oemvm/oemvm.dtbo
+
 # fastbootd firmware data
 odm/firmware/fastboot.bin
 
