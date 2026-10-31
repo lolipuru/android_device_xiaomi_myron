@@ -1408,36 +1408,6 @@ odm/etc/spr_cfg_xiaomi_p11u_42_0d_0a_cmd_mode_dsc_dsi_panel.xml
 product/etc/displayconfig/common_multi_factor_thermal_brightness_control.xml:vendor/etc/displayconfig/common_multi_factor_thermal_brightness_control.xml
 product/etc/displayconfig/display_id_4630946964337362323.xml:vendor/etc/displayconfig/display_id_4630946964337362323.xml
 
-# Display (virtual display service)
-odm/firmware/asic_panel.bin
-odm/firmware/asic_pcc.bin
-odm/firmware/maincode.bin
-odm/firmware/nn_00000000.bin
-odm/firmware/nn_00000001.bin
-odm/firmware/nn_00000002.bin
-odm/firmware/nn_00000003.bin
-odm/firmware/nn_00000004.bin
-odm/firmware/nn_00000005.bin
-odm/firmware/nn_00000006.bin
-odm/firmware/nn_00000007.bin
-odm/firmware/nn_00000008.bin
-odm/firmware/nn_00000009.bin
-odm/firmware/nn_02000000.bin
-odm/firmware/nn_03000000.bin
-odm/firmware/nn_12000000.bin
-odm/firmware/paneldata_0x00000032.bin
-odm/firmware/paneldata_0x00000036.bin
-odm/firmware/paneldata_0x00000042.bin
-odm/firmware/paneldata_0x10000032.bin
-odm/firmware/pq_00000000.bin
-odm/firmware/pq_global_00000000.bin
-odm/lib64/libfcsam.so
-odm/lib64/libframemaster.so
-odm/lib64/libmiam.so;FIX_SONAME
-odm/lib64/libnvticcontroller.so
-odm/lib64/libtouchreport_alg_fts.so;FIX_SONAME
-odm/lib64/vendor.novatek.hardware.visdisplaysrv-V1-ndk.so
-
 # Displayfeature (configs)
 odm/etc/df_default.xml
 odm/etc/disp0/mdss_dsi_p11u_42_0d_0a_dsc_cmd/cct_pcc.txt
