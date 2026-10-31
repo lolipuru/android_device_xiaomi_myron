@@ -33,6 +33,10 @@ lib_fixups: lib_fixups_user_type = {
 }
 
 blob_fixups: blob_fixups_user_type = {
+    'odm/bin/hw/vendor.xiaomi.sensor.citsensorservice.aidl': blob_fixup()
+        .replace_needed('libtinyxml2.so', 'libtinyxml2-v36.so')
+        .replace_needed('android.hardware.graphics.common-V6-ndk.so',
+                        'android.hardware.graphics.common-V7-ndk.so'),
     (
         'odm/etc/camera/snsc_bokeh_motiontuning.xml',
         'odm/etc/camera/snsc_enhance_motiontuning.xml',

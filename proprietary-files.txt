@@ -1535,6 +1535,10 @@ odm/etc/libnfc-nxp_RF.conf:vendor/libnfc-nxp_RF.conf
 odm/etc/vintf/manifest/nfc2-service-nxp.xml
 
 # Sensors
+odm/bin/hw/vendor.xiaomi.sensor.citsensorservice.aidl
+vendor/lib64/sensors.qsh.so
+
+# Sensors config
 odm/etc/sensors/config/5cm_blue.png
 odm/etc/sensors/config/5cm_gray.png
 odm/etc/sensors/config/5cm_green.png
