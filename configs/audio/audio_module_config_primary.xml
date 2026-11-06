@@ -37,9 +37,6 @@ SPDX-License-Identifier: BSD-3-Clause-Clear
         <mixPort name="spatial_out" role="source" flags="SPATIALIZER">
             <profile samplingRates="48000" channelLayouts="LAYOUT_STEREO" formatType="PCM" pcmType="INT_16_BIT" />
         </mixPort>
-        <mixPort name="spatial_offload_out" role="source" flags="SPATIALIZER">
-            <profile samplingRates="48000" channelLayouts="LAYOUT_7POINT1POINT4" formatType="PCM" pcmType="INT_16_BIT" />
-        </mixPort>
         <mixPort name="direct_pcm_out" role="source" flags="DIRECT" recommendedMuteDurationMs="160">
             <profile samplingRates="8000 11025 12000 16000 22050 24000 32000 44100 48000 64000 88200 96000 128000 176400 192000" channelLayouts="LAYOUT_MONO LAYOUT_STEREO LAYOUT_2POINT1 LAYOUT_QUAD LAYOUT_PENTA LAYOUT_5POINT1 LAYOUT_6POINT1 LAYOUT_7POINT1" formatType="PCM" pcmType="INT_16_BIT" />
             <profile samplingRates="8000 11025 12000 16000 22050 24000 32000 44100 48000 64000 88200 96000 128000 176400 192000 352800 384000" channelLayouts="LAYOUT_MONO LAYOUT_STEREO LAYOUT_2POINT1 LAYOUT_QUAD LAYOUT_PENTA LAYOUT_5POINT1 LAYOUT_6POINT1 LAYOUT_7POINT1" formatType="PCM" pcmType="FIXED_Q_8_24" />
