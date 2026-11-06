@@ -1504,6 +1504,7 @@ odm/etc/vintf/manifest/nfc2-service-nxp.xml
 
 # Sensors
 odm/bin/hw/vendor.xiaomi.sensor.citsensorservice.aidl
+vendor/etc/sensors/hals.conf
 vendor/lib64/sensors.qsh.so
 
 # Sensors config

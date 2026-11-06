@@ -14,7 +14,8 @@ $(call inherit-product, vendor/xiaomi/myron/myron-vendor.mk)
 # Audio
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/audio/odm/resourcemanager_canoe_mtp.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/sku_canoe/resourcemanager_canoe_mtp.xml \
-    $(LOCAL_PATH)/configs/audio/resourcemanager_canoe_mtp.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_canoe/resourcemanager_canoe_mtp.xml
+    $(LOCAL_PATH)/configs/audio/resourcemanager_canoe_mtp.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_canoe/resourcemanager_canoe_mtp.xml \
+    $(LOCAL_PATH)/configs/audio/audio_module_config_primary.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/audio_module_config_primary.xml
 
 # Camera
 PRODUCT_PACKAGES += \
