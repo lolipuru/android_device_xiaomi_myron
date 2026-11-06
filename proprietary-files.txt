@@ -1613,6 +1613,9 @@ odm/etc/thermal-videochat.conf
 odm/etc/thermal-winplay.conf
 odm/etc/thermal-xingtie.conf
 odm/etc/thermal-yuanshen.conf
+vendor/etc/thermal-engine.conf
+vendor/etc/thermal-map.conf
+vendor/etc/thermald-devices.conf
 
 # Vibrator
 odm/firmware/0_click_P_RTP.bin:vendor/etc/vibrator/effect_0.bin
