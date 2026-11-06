@@ -946,6 +946,26 @@
                 </custom-config>
             </usecase>
             <usecase>
+                <name>PAL_STREAM_SPATIAL_AUDIO</name>
+                <channels>3</channels>
+                <custom-config key="speaker-top">
+                    <channels>3</channels>
+                    <snd_device_name>speaker-top</snd_device_name>
+                </custom-config>
+                <custom-config key="speaker-bot">
+                    <channels>3</channels>
+                    <snd_device_name>speaker-bot</snd_device_name>
+                </custom-config>
+                <custom-config key="speaker-back">
+                    <channels>3</channels>
+                    <snd_device_name>speaker-back</snd_device_name>
+                </custom-config>
+                <custom-config key="speaker-default">
+                    <channels>3</channels>
+                    <snd_device_name>speaker</snd_device_name>
+                </custom-config>
+            </usecase>
+            <usecase>
                 <name>PAL_STREAM_VOICE_CALL</name>
                 <priority>1</priority>
                 <channels>3</channels>

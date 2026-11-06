@@ -845,6 +845,10 @@
                 <priority>2</priority>
             </usecase>
             <usecase>
+                <name>PAL_STREAM_SPATIAL_AUDIO</name>
+                <priority>2</priority>
+            </usecase>
+            <usecase>
                 <name>PAL_STREAM_ULTRASOUND</name>
                 <priority>4</priority>
                 <samplerate>96000</samplerate>
